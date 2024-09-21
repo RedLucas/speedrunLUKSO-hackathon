@@ -13,14 +13,14 @@ const Submit: NextPage = () => {
     <div className="flex flex-col md:flex-row m-6 md:m-10 border border-black">
       <div className="w-[100%] md:w-5/12 border-r border-black p-4 md:p-12">
         <h2 className="text-2xl md:text-3xl mb-8">Before submitting</h2>
-        <h3 className="text-xl underline">What makes a good extension</h3>
+        <h3 className="text-xl underline">What makes a good LUKSO project?</h3>
         <p className="text-lg mb-8">
-          A good Scaffold-ETH 2 extension typically involves contract and front-end interaction. It should solve a real
-          problem or enhance the developer experience. Examples include implementing your favorite EIP, adding a useful
-          kit that extends Scaffold-ETH 2&apos;s capabilities, or implementing a Solidity by Example application.
+          A good LUKSO project typically involves contract and front-end interaction. It should solve a real
+          problem or enhance the developer experience. Examples include implementing/extending your favorite LSP, adding a useful
+          kit that extends any of our starter kits with more features or capabilities, or implementing a Solidity by Example application.
         </p>
         <p className="text-lg mt-4">
-          Need inspiration? Check out our curated extensions branches:{" "}
+          Need inspiration? Check out se2 curated extensions branches:{" "}
           <a
             href="https://github.com/scaffold-eth/create-eth-extensions/tree/eip-712"
             target="_blank"
@@ -70,6 +70,9 @@ const Submit: NextPage = () => {
         <h3 className="text-xl underline mt-10">Please pay attention to the following before submitting</h3>
         <ul className="list-disc pl-5 text-lg mt-4">
           <li>
+            Use this form to submit both your completed speedrunLUKSO challenges AND your own LUKSO BUILDS
+          </li>
+          <li>
             Follow extension guidelines to ensure compatibility with Scaffold-ETH 2 CLI (
             <a
               className="underline"
@@ -93,12 +96,12 @@ const Submit: NextPage = () => {
           <li>Submit only your original work, disclose any pre-existing work used.</li>
           <li>Provide clear documentation and a 2-minute video showcasing your extension.</li>
           <li>Be respectful to all participants.</li>
-          <li>Quality is more important than quantity. Focus on creating impactful extensions.</li>
+          <li>Quality is more important than quantity. Focus on creating impactful BUILDS.</li>
         </ul>
       </div>
       <div className="w-[100%] md:w-7/12 p-4 md:p-12 bg-accent">
         <div className="flex items-center flex-col flex-grow">
-          <h1 className="text-2xl md:text-3xl mb-8">Submit your extension</h1>
+          <h1 className="text-2xl md:text-3xl mb-8">Submit your build</h1>
           <Form />
         </div>
       </div>

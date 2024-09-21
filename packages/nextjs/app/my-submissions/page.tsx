@@ -46,7 +46,7 @@ const MySubmissions = () => {
                 <>
                   <p className="mb-4">You haven&apos;t made any submissions yet.</p>
                   <button onClick={() => router.push("/submit")} className="btn btn-primary">
-                    Submit an Extension
+                    Submit a build
                   </button>
                 </>
               ) : (

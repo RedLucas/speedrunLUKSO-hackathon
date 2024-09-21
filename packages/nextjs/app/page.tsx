@@ -8,6 +8,7 @@ import {
   PrizeInfo,
   StickySubmissionInfo,
   Timeline,
+  // KitsoInfo,
 } from "~~/components/extensions-hackathon/";
 
 const Home: NextPage = () => {
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
     <div className="flex flex-col items-center mx-6">
       <Hero />
       <PrizeInfo />
+      {/* <KitsoInfo /> */}
       <HackathonInfo />
       <Timeline />
       <Faq />

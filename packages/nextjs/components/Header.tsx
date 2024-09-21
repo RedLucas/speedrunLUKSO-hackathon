@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useCallback, useRef, useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { useAccount } from "wagmi";
 import {
@@ -131,7 +131,8 @@ export const Header = () => {
           passHref
           className="max-w-[160px] lg:max-w-none lg:flex items-center gap-2 ml-1 lg:ml-4 mr-2 lg:mr-6 shrink-0"
         >
-          <Image alt="SE2 logo" className="cursor-pointer" width={205} height={54} src="/logo.svg" />
+          <h1>speedrunLUKSO</h1>
+          {/* <Image alt="SE2 logo" className="cursor-pointer" width={205} height={54} src="/logo.svg" /> */}
         </Link>
       </div>
       <div className="navbar-end flex-grow items-center justify-end">

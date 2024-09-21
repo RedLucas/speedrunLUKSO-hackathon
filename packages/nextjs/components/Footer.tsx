@@ -38,7 +38,7 @@ export const Footer = () => {
             </div>
             <span>·</span>
             <div className="text-center">
-              <a href="https://t.me/+jgKFHjb9B_cyNmMx" target="_blank" rel="noreferrer" className="link">
+              <a href="https://t.me/+DlLg2q8IeII4Mjhh" target="_blank" rel="noreferrer" className="link">
                 Support
               </a>
             </div>
