@@ -8,12 +8,16 @@ export const Hero = () => {
         <h1 className="text-4xl lg:text-7xl 2xl:text-8xl">
           Speedrun
           <br />
-          LUKSO
+          <b>LUKSO</b>
         </h1>
         <p className="text-base md:text-lg lg:text-xl mt-2">Learn how to develop full-stack dapps on LUKSO using Universal Profiles and the LSP smart contracts</p>
         <div className="flex flex-col sm:flex-row items-start sm:items-center mt-4">
           <h2 className="text-lg lg:text-2xl">October 2024 - Ongoing</h2>
           <div className="px-4 py-2 mt-2 sm:mt-0 sm:ml-12 bg-accent text-base md:text-lg lg:text-xl">Virtual</div>
+        </div>
+        <div className="flex flex-col sm:flex-row items-start sm:items-center mt-4">
+          <h2 className="text-lg lg:text-2xl">The Infinite</h2>
+          <div className="px-4 py-2 mt-2 sm:mt-0 sm:ml-12 bg-accent text-base md:text-lg lg:text-xl">Hackathon</div>
         </div>
       </div>
       <div className="h-36 mt-4 md:mt-0 md:w-1/2 md:h-full relative">
